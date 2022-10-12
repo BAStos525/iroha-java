@@ -1,9 +1,9 @@
 name: Iroha2-java pull requests workflow
 
 on:
-  # pull_request:
-  #   branches: [ iroha2-dev, iroha2-main ]
-  workflow_dispatch:
+   push:
+    branches: [feature/iroha-261]
+#  workflow_dispatch:
     
 jobs:
   build:
@@ -31,7 +31,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: build-reports
-          path: index.html
+          path: /home/runner/work/iroha-java/iroha-java/modules/admin-client/build/reports/tests/test/index.html
       - name: Cleanup Gradle Cache
         # Remove some files from the Gradle cache, so they aren't cached by GitHub Actions.
         # Restoring these files from a GitHub Actions cache might cause problems for future builds.
