@@ -9,3 +9,5 @@ RUN cargo +nightly-2022-04-20 build --release -Z build-std -Z build-std-features
 
 FROM debian:buster-slim
 COPY --from=builder /test-smart-contract /test-smart-contract
+
+#fkdsfkdsfklds
