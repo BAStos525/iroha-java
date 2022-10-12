@@ -1,8 +1,10 @@
 name: Iroha2-java pull requests workflow
 
 on:
-  pull_request:
-    branches: [ iroha2-dev, iroha2-main ]
+  # pull_request:
+  #   branches: [ iroha2-dev, iroha2-main ]
+  workflow_dispatch:
+    
 jobs:
   build:
     runs-on: ubuntu-latest
