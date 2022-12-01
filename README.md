@@ -1,6 +1,6 @@
 # Iroha2 Java
 
-[![](https://img.shields.io/jitpack/v/hyperledger/iroha-java.svg)] [![Iroha2-java main branch workflow](https://github.com/BAStos525/iroha-java/actions/workflows/iroha2-ci.yml/badge.svg?branch=test-branch)](https://github.com/BAStos525/iroha-java/actions/workflows/iroha2-ci.yml)
+[![](https://img.shields.io/jitpack/v/hyperledger/iroha-java.svg)] [![ci passed](https://github.com/BAStos525/iroha-java/actions/workflows/iroha2-ci.yml/badge.svg?branch=test-branch)](https://github.com/BAStos525/iroha-java/actions/workflows/iroha2-ci.yml)
 
 The repository contains the client library of [Hyperledger Iroha2](https://github.com/hyperledger/iroha2) written in Kotlin. This includes:
 
