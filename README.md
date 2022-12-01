@@ -41,3 +41,5 @@ To get specific javadoc/lib version(s), refer to [JitPack features](https://jitp
 ## If you have any questions
 
 Please [contact the community](https://github.com/hyperledger/iroha#need-help) to get answers as soon as possible.
+
+![ci passed](https://github.com/github/iroha2-java/actions/workflows/iroha2-ci.yml/badge.svg?event=push)
