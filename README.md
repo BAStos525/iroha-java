@@ -1,6 +1,6 @@
 # Iroha2 Java
 
-[![](https://img.shields.io/jitpack/v/hyperledger/iroha-java.svg)](https://jitpack.io/#hyperledger/iroha-java/iroha2-dev-SNAPSHOT)
+[![](https://img.shields.io/jitpack/v/hyperledger/iroha-java.svg)](https://jitpack.io/#hyperledger/iroha-java/iroha2-dev-SNAPSHOT) ![ci passed](https://github.com/BAStos525/iroha2-java/actions/workflows/iroha2-ci.yml/badge.svg?event=push)
 
 The repository contains the client library of [Hyperledger Iroha2](https://github.com/hyperledger/iroha2) written in Kotlin. This includes:
 
@@ -41,5 +41,3 @@ To get specific javadoc/lib version(s), refer to [JitPack features](https://jitp
 ## If you have any questions
 
 Please [contact the community](https://github.com/hyperledger/iroha#need-help) to get answers as soon as possible.
-
-![ci passed](https://github.com/github/iroha2-java/actions/workflows/iroha2-ci.yml/badge.svg?event=push)
