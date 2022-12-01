@@ -39,7 +39,7 @@ subprojects {
         repositories {
             maven {
                 name = "maven-soramitsu"
-                url = "https://nexus.iroha.tech/jp.co.soramitsu.iroha2-java/"
+                url = "https://nexus.iroha.tech/"
                 credentials {
                     username = System.getenv("NEXUS_USER")
                     password = System.getenv("NEXUS_PASS")
