@@ -40,8 +40,8 @@ jobs:
       with:
         arguments: publish
       env:
-        NEXUS_TOKEN: ${{ secrets.NEXUS_TOKEN }}
-    #    MAVEN_PASSWORD: ${{ secrets.OSSRH_TOKEN }}
+        NEXUS_USER: ${{ secrets.NEXUS_USER }}
+        NEXUS_PASS: ${{ secrets.NEXUS_PASS }}
 
 
 
