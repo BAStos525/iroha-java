@@ -11,21 +11,21 @@ on:
   push:
     branches: [ test-branch ]
 jobs:
-  prepare:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v2
-    - name: Generate libraries list
-      id: generate-matrix
-      run: echo "::set-output name=matrix::$(ls ./modules | jq  --raw-input . | jq --slurp . | jq -c .)"
-    outputs:
-        matrix: ${{ steps.generate-matrix.outputs.matrix }}
+  # prepare:
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #   - uses: actions/checkout@v2
+  #   - name: Generate libraries list
+  #     id: generate-matrix
+  #     run: echo "::set-output name=matrix::$(ls ./modules | jq  --raw-input . | jq --slurp . | jq -c .)"
+  #   outputs:
+  #       matrix: ${{ steps.generate-matrix.outputs.matrix }}
   publish:
-    needs: prepare
+  #  needs: prepare
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        library: ${{ fromJson(needs.prepare.outputs.matrix) }}          
+    # strategy:
+    #   matrix:
+    #     library: ${{ fromJson(needs.prepare.outputs.matrix) }}          
     steps:
     - uses: actions/checkout@v3
     - name: Set up JDK 11
